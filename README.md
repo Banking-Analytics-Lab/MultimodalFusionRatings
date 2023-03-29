@@ -7,12 +7,16 @@ There are four groups of models:
 
 1-Group1:The signal fusion is used for the structured dataset. So, all numerical datasets are concatenated at the beginning, being prepared to enter network A to be trained. On the other hand, the text is trained using model B. Then feature fusion is utilized and the penultimate layer of different modalities is combined through the concatenation technique.
 
-<img src="Picture1.png" alt="Alt Text" width="250" height="250">
+<img src="Picture1.png" alt="Alt Text" width="350" height="350">
 
 2-GROUP 2: Similar to GROUP 1 all numerical datasets are fused at the beginning (signal fusion) and then the concatenated numerical channel is sent to network A to be trained. The text channel is also sent to network B and their output layers are fused using the cross-attention technique
 
-<img src="Picture2.png" alt="Alt Text" width="250" height="250">
+<img src="Picture2.png" alt="Alt Text" width="350" height="350">
 
-<img src="Picture3.png" alt="Alt Text" width="250" height="250">
+GROUP 3: Each numerical dataset separately passes through network A, and the text dataset entenetwork B, then their penultimate layers are concatenated. In this case, only the feature level of fusion is used.
 
-<img src="Picture4.png" alt="Alt Text" width="250" height="250">
+<img src="Picture3.png" alt="Alt Text" width="350" height="350">
+
+GROUP 4: First, four numeric channels are trained separately by model A and the text channel is trained by model B. Then after training, the penultimate layer of numerical modalities is concatenated and finally, in the last step, we fuse the text layer and the concatenated layer via the cross-attention method.
+
+<img src="Picture4.png" alt="Alt Text" width="350" height="350">
