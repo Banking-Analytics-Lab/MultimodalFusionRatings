@@ -1,18 +1,35 @@
-Data Sources Overview:
-In our study, we utilized two main categories of data: structured and unstructured. Our structured data sources were primarily obtained from the Wharton Research Data Services (WRDS: https://wrds-www.wharton.upenn.edu/),
-a highly regarded private, subscription-based data repository. It is well-known for its extensive collection of financial, marketing, and economic information. We sourced data from the following databases within WRDS:
+## Data Sources Overview
 
-1.	CRSP (Center for Research in Security Prices):
- -	Provides comprehensive security price, return, and volume data for the NYSE, AMEX, and NASDAQ stock markets.
- -	Includes additional data on stock indices, beta and cap-based portfolios, treasury bond rates, mutual funds, and real estate data.
- For the market data, we used CRSP.
+In our study, we utilized two main categories of data: structured and unstructured. Our structured data sources were primarily obtained from Wharton Research Data Services (WRDS), a highly regarded private, subscription-based data repository known for its extensive collection of financial, marketing, and economic information. More information about WRDS can be found at [WRDS](https://wrds-www.wharton.upenn.edu/).
 
-2.	Compustat:
--	Offers detailed corporate financial ratios and ratings.
--	Contains data for U.S. and Canadian companies, including over 300 annual and 100 quarterly financial data items dating back to 1950 for annual data and 1962 for quarterly and monthly market data.
-For the financial retio and ratind data, we used Compustat.
+### Structured Data Sources
 
-3.	Mergent and TRACE (Trade Reporting and Compliance Engine):
--	Provides in-depth information on bond transactions and performance.
--	TRACE data includes corporate bonds, U.S. government agency bonds, and securitized products, detailed by types like asset-backed securities and mortgage-backed securities.
-For the bond data, we used Mergent and TRACE.
+We sourced data from the following databases within WRDS:
+
+#### 1. CRSP (Center for Research in Security Prices)
+- **Purpose:** Provides comprehensive security price, return, and volume data.
+- **Markets Covered:** NYSE, AMEX, and NASDAQ.
+- **Additional Data:** Stock indices, beta and cap-based portfolios, treasury bond rates, mutual funds, and real estate data.
+- **Usage in Study:** Utilized for market data.
+
+#### 2. Compustat
+- **Purpose:** Offers detailed corporate financial ratios and ratings.
+- **Coverage:** Data for U.S. and Canadian companies.
+- **Data Range:** Over 300 annual and 100 quarterly financial data items.
+- **Historical Data Availability:** Annual data back to 1950 and quarterly and monthly market data back to 1962.
+- **Usage in Study:** Employed for financial ratio and rating data.
+
+#### 3. Mergent and TRACE (Trade Reporting and Compliance Engine)
+- **Purpose:** Provides in-depth information on bond transactions and performance.
+- **Data Includes:** Corporate bonds, U.S. government agency bonds, and securitized products, detailed by types like asset-backed securities and mortgage-backed securities.
+- **Usage in Study:** Utilized for bond data.
+
+### Data Collection Methodology
+
+Data collection from WRDS involved utilizing Structured Query Language (SQL) on the WRDS platform to access and extract specific datasets:
+
+- **Market-Related Data:** Sourced from the Center for Research in Security Prices (CRSP) to obtain comprehensive information on stock prices, returns, and market indices.
+- **Corporate Financial Data:** Extracted from Compustat, focusing on extensive historical financial data for U.S. and Canadian companies.
+- **Bond-Related Information:** Collected from both Mergent for detailed bond deal structures and the Trade Reporting and Compliance Engine (TRACE) for transactional bond data, including corporate and government agency bonds.
+
+This method ensured precise and consistent retrieval of data aligned with our research objectives, leveraging WRDS's robust data management tools to handle, integrate, and process the data efficiently while adhering to strict data security and compliance standards.
