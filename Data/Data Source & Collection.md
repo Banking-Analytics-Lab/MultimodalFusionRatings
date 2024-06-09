@@ -24,6 +24,16 @@ We sourced data from the following databases within WRDS:
 - **Data Includes:** Corporate bonds, U.S. government agency bonds, and securitized products, detailed by types like asset-backed securities and mortgage-backed securities.
 - **Usage in Study:** Utilized for bond data.
 
+### Unstructured Data Sources
+
+Our study also incorporated significant amounts of unstructured data, primarily sourced from the following platform:
+
+#### 1. Seeking Alpha
+- **Website:** [Seeking Alpha](https://seekingalpha.com)
+- **Purpose:** Utilized for textual data extraction.
+- **Specialization:** Specializes in financial news and analysis covering a broad range of publicly traded companies and investments, focusing on North American markets.
+- **Usage in Study:** Employed for gathering insights and sentiments from financial analysts and investor commentary.
+
 ### Data Collection Methodology
 
 Data collection from WRDS involved utilizing Structured Query Language (SQL) on the WRDS platform to access and extract specific datasets:
@@ -32,4 +42,6 @@ Data collection from WRDS involved utilizing Structured Query Language (SQL) on 
 - **Corporate Financial Data:** Extracted from Compustat, focusing on extensive historical financial data for U.S. and Canadian companies.
 - **Bond-Related Information:** Collected from both Mergent for detailed bond deal structures and the Trade Reporting and Compliance Engine (TRACE) for transactional bond data, including corporate and government agency bonds.
 
-This method ensured precise and consistent retrieval of data aligned with our research objectives, leveraging WRDS's robust data management tools to handle, integrate, and process the data efficiently while adhering to strict data security and compliance standards.
+Unstructured data from Seeking Alpha was harvested using web scraping techniques to capture relevant financial news articles, analyst reports, and investor comments. This method allowed for the extraction of rich textual content which was then processed using natural language processing (NLP) tools to analyze sentiments and extract meaningful insights related to financial markets and specific companies.
+
+This approach ensured precise and consistent retrieval of data aligned with our research objectives, leveraging robust data management tools to handle, integrate, and process the data efficiently while adhering to strict data security and compliance standards.
