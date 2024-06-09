@@ -1,0 +1,18 @@
+Data Sources Overview:
+In our study, we utilized two main categories of data: structured and unstructured. Our structured data sources were primarily obtained from the Wharton Research Data Services (WRDS: https://wrds-www.wharton.upenn.edu/),
+a highly regarded private, subscription-based data repository. It is well-known for its extensive collection of financial, marketing, and economic information. We sourced data from the following databases within WRDS:
+
+1.	CRSP (Center for Research in Security Prices):
+ -	Provides comprehensive security price, return, and volume data for the NYSE, AMEX, and NASDAQ stock markets.
+ -	Includes additional data on stock indices, beta and cap-based portfolios, treasury bond rates, mutual funds, and real estate data.
+ For the market data, we used CRSP.
+
+2.	Compustat:
+-	Offers detailed corporate financial ratios and ratings.
+-	Contains data for U.S. and Canadian companies, including over 300 annual and 100 quarterly financial data items dating back to 1950 for annual data and 1962 for quarterly and monthly market data.
+For the financial retio and ratind data, we used Compustat.
+
+3.	Mergent and TRACE (Trade Reporting and Compliance Engine):
+-	Provides in-depth information on bond transactions and performance.
+-	TRACE data includes corporate bonds, U.S. government agency bonds, and securitized products, detailed by types like asset-backed securities and mortgage-backed securities.
+For the bond data, we used Mergent and TRACE.
