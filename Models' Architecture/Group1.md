@@ -9,20 +9,10 @@ Here is an explanation of the fusion strategy used:
   - We then concatenated their penultimate layers, and the simple intermediate level of fusion was used.
   - Following are the architectures of each base model:
 
-### CNN based Model
+### CNN based Model: [View architecture:](11.pdf)
 
-- [View CNN based Model PDF](11.pdf)
-- ![image](https://github.com/Banking-Analytics-Lab/MultimodalFusionRatings/assets/98291003/27be0272-85ef-40b3-be3b-079527d87318)
+### LSTM based Model:[View architecture](12.pdf)
 
+### GRU based Model: [View architecture](13.pdf)
 
-### Another Model
-
-- [View PDF](12.pdf)
-
-### Yet Another Model
-
-- [View PDF](13.pdf)
-
-### Final Model
-
-- [View PDF](14.pdf)
+### Bert based Model: [View architecture](14.pdf)
