@@ -1,4 +1,4 @@
-***GROUP 1- Simple Concatenation***:
+***GROUP 1- Simple Concatenation***
  
   - In this group, each numerical dataset separately passed through a network.  We then concatenated their penultimate layers, and the simple intermediate level of fusion was used.
   - Following are the architectures of each base model:
