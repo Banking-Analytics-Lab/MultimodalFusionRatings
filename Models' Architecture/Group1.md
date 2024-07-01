@@ -12,6 +12,8 @@ Here is an explanation of the fusion strategy used:
 ### CNN based Model
 
 - [View CNN based Model PDF](11.pdf)
+- ![image](https://github.com/Banking-Analytics-Lab/MultimodalFusionRatings/assets/98291003/27be0272-85ef-40b3-be3b-079527d87318)
+
 
 ### Another Model
 
