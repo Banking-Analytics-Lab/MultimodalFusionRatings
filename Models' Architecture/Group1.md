@@ -11,20 +11,16 @@ Here is an explanation of the fusion strategy used:
 
 ### CNN based Model
 
-- [View PDF](11.pdf)
-<iframe src="11.pdf" width="100%" height="500px"></iframe>
+- [View CNN based Model PDF](11.pdf)
 
 ### Another Model
 
 - [View PDF](12.pdf)
-<iframe src="12.pdf" width="100%" height="500px"></iframe>
 
 ### Yet Another Model
 
 - [View PDF](13.pdf)
-<iframe src="13.pdf" width="100%" height="500px"></iframe>
 
 ### Final Model
 
 - [View PDF](14.pdf)
-<iframe src="14.pdf" width="100%" height="500px"></iframe>
