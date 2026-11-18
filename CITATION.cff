@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "MultimodalFusionRatings"
+license: GPL-3.0
+repository-code: "https://github.com/Banking-Analytics-Lab/MultimodalFusionRatings"
+authors:
+  - family-names: "Tavakoli"
+    given-names: "Mahsa"
+    orcid: "https://orcid.org/0000-0002-2546-400X"
+  - family-names: "Chandra"
+    given-names: "Rohitash"
+    orcid: "https://orcid.org/0000-0001-6353-1464"
+  - family-names: "Tian"
+    given-names: "Fengrui"
+    orcid: "https://orcid.org/0000-0003-3856-8382"
+  - family-names: "Bravo"
+    given-names: "Cristián"
+    orcid: "https://orcid.org/0000-0003-1579-1565"
+preferred-citation:
+  type: article
+  title: "Multi-modal deep learning for credit rating prediction using text and numerical data streams"
+  year: 2025
+  month: 3
+  journal: "Applied Soft Computing"
+  volume: 171
+  start: 112771
+  doi: "10.1016/j.asoc.2025.112771"
+  authors:
+    - family-names: "Tavakoli"
+      given-names: "Mahsa"
+      orcid: "https://orcid.org/0000-0002-2546-400X"
+    - family-names: "Chandra"
+      given-names: "Rohitash"
+      orcid: "https://orcid.org/0000-0001-6353-1464"
+    - family-names: "Tian"
+      given-names: "Fengrui"
+      orcid: "https://orcid.org/0000-0003-3856-8382"
+    - family-names: "Bravo"
+      given-names: "Cristián"
+      orcid: "https://orcid.org/0000-0003-1579-1565"

@@ -1,0 +1,14 @@
+# The versions used for the paper were not recorded.
+# Package names only, built from the imports in code/*.ipynb. "bert" (from bert import tokenization) is taken to be bert-tensorflow.
+absl-py
+bert-tensorflow
+clean-text
+keras
+matplotlib
+mlxtend
+nltk
+numpy
+pandas
+scikit-learn
+tensorflow
+tensorflow-hub
