@@ -99,7 +99,9 @@ group numbers in the paper; the last column gives the paper's group.
 
 `Models' Architecture/Models' Architecture.md` describes the groups in the paper's numbering and links
 one architecture diagram per model (`11.pdf` to `44.pdf`): the first digit is the paper's group, and
-the second is the base model (1 CNN, 2 LSTM, 3 GRU, 4 BERT).
+the second is the base model (1 CNN, 2 LSTM, 3 GRU, 4 BERT). The BERT diagrams of groups 1 and 2 are
+not available: the files `14.pdf` and `24.pdf` were copies of the CNN and GRU diagrams and were
+removed.
 
 ## Evaluation
 

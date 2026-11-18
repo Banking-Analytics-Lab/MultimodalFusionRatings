@@ -6,7 +6,7 @@ Following are the architectures of each base model:
  - CNN based Model: [View architecture](11.pdf)
  - LSTM based Model: [View architecture](12.pdf)
  - GRU based Model: [View architecture](13.pdf)
- - BERT based Model: [View architecture](14.pdf)
+ - BERT based Model: diagram not available
 
    
 ### ***GROUP 2- Simple Concatenation-Attention***
@@ -17,7 +17,7 @@ In this group, an initial phase involved training four distinct numeric channels
  - CNN based Model: [View architecture](21.pdf)
  - LSTM based Model: [View architecture](22.pdf)
  - GRU based Model: [View architecture](23.pdf)
- - BERT based Model: [View architecture](24.pdf)
+ - BERT based Model: diagram not available
 
 ### ***GROUP 3- Hybrid Concatenation***
  
